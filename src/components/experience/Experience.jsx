@@ -1,6 +1,4 @@
 import React from 'react';
-import { BsFillPatchCheckFill } from 'react-icons/bs';
-import { IoLogoJavascript } from 'react-icons/io';
 import './experience.css';
 
 const Experience = () => {
