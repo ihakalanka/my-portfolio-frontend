@@ -15,7 +15,7 @@ const Contact = () => {
     e.preventDefault();
 
     await axios
-      .post(`https://my-portfolio-iha.herokuapp.com/api/send-message`, {
+      .post(process.env.REACT_APP_URL+`/api/send-message`, {
         name,
         email,
         message,
